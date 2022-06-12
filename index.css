@@ -1,0 +1,90 @@
+@font-face {
+    src: url(font/Timer.ttf);
+    font-family: Timer;
+}
+
+body {
+    margin: 0;
+    font-family: Timer;
+    text-align: center;
+    background-color: #272626;
+}
+
+#main {
+    background-color: #064e3b;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+h1 {
+    padding: 30px 0;
+    color: #fff;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #eeeeee;
+}
+
+.winner {
+    color: #fff;
+    background-color: #34d399;
+}
+
+.loser {
+    color: #fff;
+    background-color: #ff0000;
+}
+
+h2 {
+    color: #f94f6d;
+    font-size: 90px;
+    background-color: #080001;
+    padding: 25px 0 15px 0;
+    width: 200px;
+    margin: 0;
+}
+
+.btn-div {
+    padding: 26px 0;
+}
+
+.btn-div button {
+    font-family: Timer;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    color: #6ee7b7;
+    background-color: transparent;
+    border: 1px solid #6ee7b7;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #064e3b;
+    background-color: #6ee7b7;
+}
+
+#new-game {
+    font-family: Timer;
+    font-size: 20px;
+    color: #064e3b;
+    background-color: #6ee7b7;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+
+#new-game:hover {
+    color: #6ee7b7;
+    background-color: transparent;
+    border: 1px solid #6ee7b7;
+}
